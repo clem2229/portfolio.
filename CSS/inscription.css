@@ -1,0 +1,175 @@
+body {
+    min-height: 100vh;
+    text-align :center;
+    background: url("../image/fond_site.jpg");
+    background-size: 100% ;
+    background-position: center;
+    color: #fff;
+    font-family: Ubuntu;
+    cursor: url("../image/curseur.png"), auto;
+    
+}
+
+header {
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    position :relative;
+    top: 10;
+    width: 50%;
+    padding: 10px 50px; 
+    background: linear-gradient(45deg, #2403fc, #2500c3, #1e028c, #140459);
+    border-radius: 50px;
+    color: #fff;
+    font-family: Ubuntu;
+    text-align: center;
+    
+}
+
+.maison{
+    display: block;
+    padding: 10px 10px;
+    position: absolute;
+    color: #fff;
+    left: 10%;
+    top: 20%;
+    margin-right: 0%;
+}
+
+.maison:hover {
+    cursor: url("../image/curseur2.png"), auto;
+}
+
+
+h1 {
+    font-size: 100%;
+}
+
+h2 {
+    font-size: 120%;
+    margin-top: 2%;
+}
+
+
+.card { 
+    position: absolute;
+    text-align: center;
+    font-family: Ubuntu;
+    color: #1e028c;
+    left: 15%;
+    bottom: 45%;
+    background: linear-gradient(45deg, #fff700, #f5b223);
+    width: 30%;
+    height: 30%;
+    transform-style: preserve-3d;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px;
+    border-radius: 10px;
+    cursor: url("../image/curseur2.png"), auto;
+    transition: 1s;
+}
+
+.cards {
+    position: absolute;
+    left: 55%;
+    bottom: 45%;
+    text-align: center;
+    font-family: Ubuntu;
+    color: #fff;
+    background: linear-gradient(45deg, #2403fc, #2500c3, #1e028c, #140459);
+    width: 30%;
+    height: 30%;
+    transform-style: preserve-3d;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px;
+    border-radius: 10px;
+    cursor: url("../image/curseur2.png"), auto;
+    transition: 1s;
+    
+}
+
+.wikipedia {
+    color: #fff;
+    cursor: url("../image/curseur2.png"), auto;
+}
+
+.cardss {
+    position: absolute;
+    left: 15%;
+    bottom: 5%;
+    text-align: center;
+    font-family: Ubuntu;
+    color: #fff;
+    background: linear-gradient(45deg, #2403fc, #2500c3, #1e028c, #140459);
+    width: 30%;
+    height: 30%;
+    transform-style: preserve-3d;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px;
+    border-radius: 10px;
+    cursor: url("../image/curseur2.png"), auto;
+    transition: 1s;
+    
+}
+
+.cardsss {
+    position: absolute;
+    left: 55%;
+    bottom: 5%;
+    text-align: center;
+    font-family: Ubuntu;
+    color: #1e028c;
+    background: linear-gradient(45deg, #fff700, #f5b223);
+    width: 30%;
+    height: 30%;
+    transform-style: preserve-3d;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px;
+    border-radius: 10px;
+    cursor: url("../image/curseur2.png"), auto;
+    transition: 1s;
+    
+}
+
+
+.carf-face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+
+.arrow-icon {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.card-front {
+    background-size: cover;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    font-size: 1.6em;
+    font-weight: 800;
+}
+
+.card-back {
+    background-size: cover;
+    margin-top: -5%;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.card.flip {
+    transform: rotateY(180deg);
+}
+
+.cards.flip {
+    transform: rotateY(180deg);
+}
+
+.cardss.flip {
+    transform: rotateY(180deg);
+}
+
+.cardsss.flip {
+    transform: rotateY(180deg);
+}

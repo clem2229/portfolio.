@@ -1,0 +1,38 @@
+body {
+    position: relative;
+    font-size: 1.7em;
+    background: url("../image/fond_site.jpg");
+    background-size: 120% ;
+    background-position: center;
+    color:#fff;
+    font-family: Ubuntu;
+    cursor: url("../image/curseur.png"), auto;
+}
+
+header {
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 0.5em;
+    position : relative;
+    width: 50%;
+    padding: 10px 50px; 
+    background: linear-gradient(45deg, #2403fc, #2500c3, #1e028c, #140459);
+    border-radius: 50px;
+    color: #fff;
+    font-family: Ubuntu;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.tmax {
+
+    border-radius: 5%;
+    
+
+}
+
+.yvains {
+    background-color: linear-gradient(45deg, #2403fc, #2500c3, #1e028c, #140459);
+}
+

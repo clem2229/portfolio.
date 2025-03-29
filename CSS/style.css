@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: padding;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+}
+
+
+
+body {
+    cursor: url("../image/curseur.png"), auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("../image/fond_site.jpg");
+    background-size: 100% ;
+    background-position: center;
+    
+
+
+}
+
+
+
+.etoile {
+    
+    position: absolute;
+    bottom: 27%;
+    left: 40%;
+    width: 20%;
+    cursor: pointer;
+    filter: drop-shadow(30px 10px 4px #4444dd);
+    transition: .5s;
+    filter: hue-rotate(0);
+
+}
+
+.etoile:hover{ 
+    cursor: url("../image/curseur2.png"), auto;
+    transform: scale(1.2);
+    filter: hue-rotate(200deg);
+    
+    }
+
+
+header {
+    position: absolute;
+    top: 3%;
+    width: 80%;
+    padding: 20px 70px; 
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 99;
+    background: linear-gradient(45deg, #2403fc, #2500c3, #1e028c, #140459);
+    border-radius: 50px;
+    transition: .5s;
+    
+}
+
+
+.tf1 {
+    display: block;
+    margin: 0%;
+    width: 10%;
+    
+}
+
+
+.navigation a {
+    position: relative;
+    font-size: 1.2em;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 50px;
+    cursor: url("../image/curseur2.png"), auto;
+}
+
+
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+    cursor: url("../image/curseur2.png"), auto;
+}
+
+.navigation a:hover::after {
+    transform: scaleX(1);
+    
+}
+
+.inscription {
+    width: 130%;
+    height: 45px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none; 
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 50%;
+    transition: .5s;
+
+    
+}
+.inscription:hover {
+    background: #fff;
+    color: #162938;
+    cursor: url("../image/curseur2.png"), auto;
+}
+
+
+footer{
+    bottom: 2%;
+    position: absolute;
+    z-index: 99;
+    background: linear-gradient(45deg, #2403fc, #2500c3, #1e028c, #140459);
+    border-radius: 50px;
+    transition: .5s;
+    transform: scale(0.8)
+    
+}
+
+  
+.icon {
+    width: 65px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 50px;
+    transition: all .4s;
+    cursor: url("../image/curseur2.png"), auto;
+
+  }
+  
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.icon:nth-child(1):hover {
+    box-shadow: 0 0 0 2px white;
+    cursor: url("../image/curseur2.png"), auto;
+  }
+  
+.icon:nth-child(2):hover {
+    box-shadow: 0 0 0 2px white;
+    cursor: url("../image/curseur2.png"), auto;
+  }
+  
+.icon:nth-child(3):hover {
+    box-shadow: 0 0 0 2px white;
+    cursor: url("../image/curseur2.png"), auto;
+  }
+  
+.icon:nth-child(4):hover {
+    box-shadow: 0 0 0 2px white;
+    cursor: url("../image/curseur2.png"), auto;
+  }
+
+.fa-facebook {
+    color: white;
+    cursor: url("../image/curseur2.png"), auto;
+    
+  }
+  
+.fa-instagram {
+    color: white;
+    cursor: url("../image/curseur2.png"), auto;
+    
+  }
+  
+.fa-twitter {
+    color: white;
+    cursor: url("../image/curseur2.png"), auto;
+    
+  }
+  
+.fa-tv {
+    color: white;
+    cursor: url("../image/curseur2.png"), auto;
+    
+  }

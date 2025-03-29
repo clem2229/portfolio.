@@ -1,0 +1,182 @@
+body {
+    position: relative;
+    
+    background: url("../image/fond_site.jpg");
+    background-size: 110% ;
+    background-position: center;
+    background-attachment: fixed;
+    color:#fff;
+    font-family: Ubuntu;
+    cursor: url("../image/curseur.png"), auto;
+    width: 100%;
+    
+}
+
+header {
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 0.5em;
+    position : relative;
+    width: 50%;
+    padding: 10px 50px; 
+    background: linear-gradient(45deg, #2403fc, #2500c3, #1e028c, #140459);
+    border-radius: 50px;
+    color: #fff;
+    font-family: Ubuntu;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.maison{
+    display: block;
+    padding: 10px 10px;
+    position: absolute;
+    color: #fff;
+    font-size: 2.0em;
+    left: 10%;
+    top: 20%;
+    margin-right: 0%;
+}
+
+.maison:hover {
+    cursor: url("../image/curseur2.png"), auto;
+}
+
+
+.img1 {
+    position: absolute;
+    border-radius: 5%;
+    margin-left: 20%;
+    top: 15%;
+    width: 40%;
+
+}
+
+.img2 {
+    position: absolute;
+    border-radius: 5%;
+    margin-left: 50%;
+    top: 40%;
+    width: 30%;
+
+}
+
+.img3 {
+    position: absolute;
+    border-radius: 5%;
+    margin-left: 15%;
+    top: 60%;
+    width: 40%;
+
+}
+
+.img4 {
+    position: absolute;
+    border-radius: 5%;
+    margin-left: 45%;
+    top: 85%;
+    width: 40%;
+    
+}
+
+.regles1 {
+    position: relative;
+    margin-bottom: 5%;
+    transform: translateX(-800px);
+    opacity: 70%;
+    transition: 2s;
+}
+
+.regles1:hover {
+    transform: translateX(0px);
+    opacity: 100%;
+}
+
+.regles1-1 {
+    position: absolute;
+    margin-right: 30%;
+    margin-left: -3%;
+    color: #1e028c;
+    background-color: #fff700;
+    padding: 1px 100px; 
+    z-index: 2;
+}
+
+.regles1-2 {
+    text-align: right;
+    margin-right: 25%;
+    margin-left: -3%;
+    color: #1e028c;
+    background-color:#fff700;
+    border-radius: 50px;
+    padding: 79px 25px; 
+    z-index: 1;
+}
+
+.regles2 {
+    position: relative;
+    margin-bottom: 5%;
+    transform: translateX(800px);
+    opacity: 70%;
+    transition: 2s;
+}
+
+.regles2:hover {
+    transform: translateX(0px);
+    opacity: 100%;
+}
+
+.regles2-1 {
+    position: absolute;
+    margin-left: 30%;
+    margin-right: -3%;
+    background-color: #1e028c;
+    padding: 1px 90px; 
+    z-index: 2;
+}
+
+.regles2-2 {
+    text-align: left;
+    margin-left: 25%;
+    margin-right: -3%;
+    background-color: #1e028c;
+    border-radius: 50px;
+    padding: 120px 25px; 
+    z-index: 1;
+}
+
+.regles3 {
+    position: relative;
+    margin-bottom: 5%;
+    transform: translateX(-800px);
+    opacity: 70%;
+    transition: 2s;
+}
+
+.regles3:hover {
+    transform: translateX(0px);
+    opacity: 100%;
+    
+}
+
+.regles3-1 {
+    position: absolute;
+    margin-right: 30%;
+    margin-left: -3%;
+    background-color:#fff700;
+    color: #1e028c;
+    padding: 1px 100px; 
+    z-index: 2;
+}
+
+.regles3-2 {
+    text-align: right;
+    margin-right: 25%;
+    margin-left: -3%;
+    background-color:#fff700;
+    color: #1e028c;
+    border-radius: 50px;
+    padding: 89px 25px; 
+    z-index: 1;
+}
